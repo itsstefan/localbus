@@ -1,2 +1,2 @@
-import localbus.localbus
+import localbus.bus
 
