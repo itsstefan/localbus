@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="localbus",
-    version="0.0.2",
+    version="0.0.4",
     author="",
     author_email="itsstefan@protonmail.com",
     description="Lightweight python IPC package",
