@@ -46,3 +46,7 @@ If you start two instances of this example program, they will (hopefully;-) be a
 
 Thousands of messages and > 10 MBit/s per second should easily be reachable (i reached 30k messages per second or ~30 MBit/s on my little test box). This is not yet tuned for performance but used with simple, text-based protocols.
 
+## Alternatives
+
+* https://github.com/ahnsv/pybus (Type-safe, high-performance message bus for python users powered by pydantic)
+
