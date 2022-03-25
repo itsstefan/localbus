@@ -10,8 +10,6 @@ For now, this has only been tested on Linux and in a trusted environment and sho
 
 ## Installation
 
-Install with Pip:
-
 ```bash
 pip install localbus
 ```
