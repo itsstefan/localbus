@@ -2,7 +2,7 @@
 
 The goal of this package is to make it very simple for several python processes to exchange information. Just register a callback for receiving stuff and, if you want to send something, call send("something").
 
-When a message is sent, it is distributed to all connected parties but not to the sender (no loopback). Messages are strings (binary stuff has to be escaped) and, when encoded, can up to 1020 bytes long (4 bytes are used for framing). Longer messages are discarded.
+When a message is sent, it is distributed to all connected parties but not to the sender (no loopback). Messages are strings (binary stuff has to be converted on your own) and, when encoded, can be up to 1020 bytes long (4 bytes are used for framing). Longer messages are discarded.
 
 Internally, multicasts with a TTL of 0 are used to make the multicast packets stay on the host.
 
